@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3849f62f-1b88-44c0-b146-2178f2ee021c" name="Default Changelist" comment="" />
+    <list default="true" id="3849f62f-1b88-44c0-b146-2178f2ee021c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f6eb20b-f527-4875-93f9-b1ffe5878137.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f6eb20b-f527-4875-93f9-b1ffe5878137.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Images/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Images/ImageController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +46,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -289,6 +296,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mQWdDfCx18YxwUuipze5LsREvI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -297,6 +305,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ImporterModule/Handler" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -328,7 +337,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609428327840</updated>
-      <workItem from="1609428331926" duration="10582000" />
+      <workItem from="1609428331926" duration="11086000" />
     </task>
     <servers />
   </component>
@@ -348,6 +357,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609431070319" />
+    <state x="779" y="197" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1609439007133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="197" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1609439007133" />
     <state x="846" y="407" width="300" height="225" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1609436768570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

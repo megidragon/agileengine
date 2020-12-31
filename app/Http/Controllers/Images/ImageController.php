@@ -19,9 +19,12 @@ class ImageController extends Controller
 
     public function search($term)
     {
-        $data = Images::where('author', '%'.$term.'%', 'LIKE')
-            ->orWhere('camera', '%'.$term.'%', 'LIKE')
-            ->orWhere('tags', '%'.$term.'%', 'LIKE')
+        $data = Images::where(function ($query) use ($term) {
+                return $query->where('author', 'LIKE', '%' . $term . '%')
+                    ->orWhere('remote_id', 'LIKE', '%'.$term.'%')
+                    ->orWhere('camera', 'LIKE', '%'.$term.'%')
+                    ->orWhere('tags', 'LIKE', '%'.$term.'%');
+            })
             ->paginate();
 
         return response()->json($data);
